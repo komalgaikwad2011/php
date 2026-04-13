@@ -1,10 +1,10 @@
 <?php
-$xml=new DOMDocument("1.0","UTF-8");
+$doc=new DOMDocument("1.0","UTF-8");
 
-$root=$xml->createElement("bookinfo");
-$xml->appendChild($root);
+$bookinfo=$doc->createElement("bookinfo");
+$doc->appendChild($bookinfo);
 
-$book1=$xml->createElement("book");
+$book1=$doc->createElement("book");
 
 $book1->appendChild($xml->createElement("bookno",1));
 $book1->appendChild($xml->createElement("bookname","java"));
@@ -12,9 +12,9 @@ $book1->appendChild($xml->createElement("authorname","balguru swami"));
 $book1->appendChild($xml->createElement("price",250));
 $book1->appendChild($xml->createElement("year",2023));
 
-$root->appendChild($book1);
+$bookinfo->appendChild($book1);
 
-$book2=$xml->createElement("book");
+$book2=$doc->createElement("book");
 
 $book2->appendChild($xml->createElement("bookno",2));
 $book2->appendChild($xml->createElement("bookname","php"));
@@ -22,13 +22,13 @@ $book2->appendChild($xml->createElement("authorname","balguru"));
 $book2->appendChild($xml->createElement("price",270));
 $book2->appendChild($xml->createElement("year",2024));
 
-$root->appendChild($book2);
+$bookinfo->appendChild($book2);
 
 
-$xml->formatOutput=true;
-$xml->save("book.xml");
+$doc->formatOutput=true;
+$doc->save("book123.xml");
 
-echo $xml->saveXML();
+echo "dom created";
 
 
 ?>
