@@ -1,8 +1,8 @@
 <html>
     <head>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
         <script>
-            $(document.ready(function()
+            $(document).ready(function()
             {
                 $("#b1").click(function()
             {
@@ -12,7 +12,7 @@
             </script>
 </head>
 <body>
-<div>hellow</div>
+<div>hello</div>
 <div id="d1">hi</div>
 <button id="b1" type="submit">remove</button>
 </body>

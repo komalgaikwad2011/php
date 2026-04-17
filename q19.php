@@ -1,8 +1,8 @@
 <html>
     <head>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+        <script src="https://code.jquery.com/jquery-4.0.0.min.js"> </script>
             <script>
-                $(document.ready(function())
+                $(document).ready(function()
                 {
                     $("img").before("RBNB");
                     $("img").after("college");
