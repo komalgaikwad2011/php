@@ -1,0 +1,20 @@
+itemname {
+    color: red;
+    font-famity: copperplate Gothic light;
+    font-size: 16pt;
+    font: bold;
+}
+
+itemprice {
+    color: yellow;
+    font-family: Arial;
+    font-size: 12 pt;
+    font: bold;
+}
+
+quantity {
+    color: yellow;
+    font-family: Arial;
+    font-size: 12 pt;
+    font: bold;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css"href="q9.css"?>
+<itemdetails>
+    <item>
+        <itemname>aaa</itemname>
+        <itemprice>3</itemprice>
+        <quantity>5</quantity>
+    </item>
+    <item>
+        <itemname>bbb</itemname>
+        <itemprice>6</itemprice>
+        <quantity>34</quantity>
+    </item>
+    <item>
+        <itemname>ccc</itemname>
+        <itemprice>8</itemprice>
+        <quantity>5</quantity>
+    </item>
+    <item>
+        <itemname>ddd</itemname>
+        <itemprice>8</itemprice>
+        <quantity>3</quantity>
+    </item>
+    <item>
+        <itemname>eee</itemname>
+        <itemprice>7</itemprice>
+        <quantity>2</quantity>
+    </item>
+</itemdetails>

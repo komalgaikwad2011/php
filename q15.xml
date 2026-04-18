@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<moviecd>
+
+    <Category type="classical">
+        <movietitle>aaa</movietitle>
+        <actorname>abc</actorname>
+        <releaseyear>2024</releaseyear>
+    </Category>
+    <Category type="horal">
+        <movietitle>bbb</movietitle>
+        <actorname>xyz</actorname>
+        <releaseyear>2023</releaseyear>
+    </Category>
+    <Category type="action">
+        <movietitle>ccc</movietitle>
+        <actorname>pqr</actorname>
+        <releaseyear>2022</releaseyear>
+    </Category>
+
+</moviecd>
